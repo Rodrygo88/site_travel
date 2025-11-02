@@ -1,0 +1,406 @@
+/* section {
+  border: 1px dashed black;
+} */
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 00 - ESTRUTURA BASE*/
+
+.estrutura {
+  padding-inline: 15vw;
+}
+
+.estrutura {
+  height: 100%;
+  width: 100%;
+}
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 01*/
+
+.secao1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav_secao1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_listas {
+  align-items: center;
+  display: flex;
+  gap: 70px;
+}
+
+.nav_listas ul {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+
+.conteudo_secao1 {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.conteudo_texto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  width: 50%;
+  z-index: 2;
+}
+
+.conteudo_img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 02*/
+
+.secao2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulos_secao2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards_secao2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 314px;
+}
+
+.card_secao2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 03*/
+
+.secao3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulos_secao3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards_secao3 {
+  display: flex;
+  gap: 36px;
+}
+
+.card_secao3 {
+  height: 457px;
+  position: relative;
+  width: 314px;
+}
+
+.card_secao3_img {
+  border-radius: 24px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.card_secao3_desc {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  left: 0;
+  padding: 30px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+.titulo_desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto_desc {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 04*/
+
+.secao4 {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.conteudo_secao4 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 50%;
+}
+
+.conteudo_itens {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+}
+
+.conteudo_item_texto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.caixa_secao4 {
+  height: 459px;
+  position: relative;
+  width: 485px;
+}
+
+.card {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  position: absolute;
+}
+
+.icone_coracao {
+  position: absolute;
+  right: 15px;
+}
+
+.mini_card {
+  bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 18px;
+  position: absolute;
+  right: 0;
+}
+
+.mini_desc {
+  display: flex;
+  gap: 20px;
+}
+
+.mini_desc_texto {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 05*/
+
+.secao5 {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+.conteudo_secao5 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 40%;
+}
+
+.caixa_principal_secao5 {
+  align-items: center;
+  display: flex;
+  height: 356px;
+  position: relative;
+  width: 60%;
+}
+
+.caixa1_secao5 {
+  height: 286px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 550px;
+  z-index: 1;
+}
+
+.caixa2_secao5 {
+  bottom: 0;
+  height: 286px;
+  left: 68px;
+  position: absolute;
+  width: 550px;
+}
+
+.card_usuario_img {
+  width: 68px;
+}
+
+.card1_secao5 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  left: 30px;
+  line-height: 32px;
+  padding: 30px;
+  position: absolute;
+  top: 30px;
+  width: 504px;
+}
+
+.card2_secao5 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  left: 30px;
+  line-height: 32px;
+  padding: 30px;
+  position: absolute;
+  top: 30px;
+  width: 504px;
+}
+
+.img1_secao5 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.botoes_secao5 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 06*/
+
+.secao6 {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 07*/
+
+.secao7 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.caixa_secao7 {
+  align-items: flex-end;
+  display: flex;
+  gap: 25px;
+  height: 60%;
+  justify-content: center;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.icone_secao7 {
+  position: absolute;
+  right: 13.5%;
+  top: 16%;
+}
+
+/*----------------------------------------------------------*/
+
+/*SEÇÃO 08*/
+
+.secao8 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  justify-content: center;
+}
+
+.footer_superior {
+  align-items: center;
+  display: grid;
+  gap: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.footer_central {
+  display: flex;
+  gap: 70px;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_direito {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+
+.icones_direito {
+  display: flex;
+}

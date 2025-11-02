@@ -1,0 +1,38 @@
+:root {
+  /*Tamanho para Titulos*/
+  --titulo-grande: 5.25rem; /*h1 */
+  --titulo-medio: 3.125rem; /*h2 */
+  --titulo-menor: 1.25rem; /*h3 */
+  --titulo-mini: 1.125rem; /*h4 */
+  --titulo-micro: 1rem; /*h5*/
+
+  /*Tamanho para textos*/
+  --texto-base: 1rem;
+  --texto-secundario: 1.125rem;
+
+  /*Familia de Fontes*/
+  --font-family-titulo: "Volkhov", serif; /*Para titulos */
+  --font-family-base: "Poppins", sans-serif; /*Para geral */
+
+  /*Cor Texto Gerais*/
+  --cor-bg: #ffffff;
+  --cor-texto-base: #5e6282;
+  --cor-texto-secundario: #5e6282;
+
+  --cor-texto-nav: #212832;
+
+  --cor-titulo-grande: #181e4b; /*h1 */
+  --cor-titulo-medio: #14183e; /*h2 */
+  --cor-titulo-menor: #df6951; /*h3 */
+  --cor-titulo-mini: #1e1d4c; /*h4 */
+
+  /*Cor Botões*/
+  --cor-texto-botao: #ffffff;
+  --cor-base1: #f1a501;
+  --cor-base2: #df6951;
+
+  /*Cor Icones*/
+  --cor-base4: #f0bb1f;
+  --cor-base4: #f15a2b;
+  --cor-base4: #006380;
+}
